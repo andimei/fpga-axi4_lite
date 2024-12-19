@@ -80,6 +80,11 @@ Antarmuka AXI Lite adalah versi sederhana dari protokol AXI yang dirancang untuk
      end
    end
 ```
+<div align="center">
+  <img src="doc/axi-lite-write-waveform.PNG"/>
+  <p><em>write transaction timing diagram</em></p>
+</div>
+
 
 3. **Fase Respon**:
    - Slave mengirimkan respon (`bresp`) bersama dengan `bvalid`.
