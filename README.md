@@ -269,7 +269,7 @@ Template program slave AXI4-Lite, contoh ini menggunakan 8 register
 ### Implementasi respons tulis
 ```verilog
   /**
-  *  Implementasi logika respons tulis
+  *  === Implementasi logika respons tulis ===
   * Sinyal respons tulis (`axi_bvalid` dan `axi_bresp`) dihasilkan oleh slave
   * ketika sinyal `axi_wready`, `S_AXI_WVALID`, `axi_awready`, dan `S_AXI_AWVALID` semuanya aktif.
   * Ini menunjukkan bahwa alamat dan data telah diterima dan memberikan status dari transaksi tulis.
@@ -311,4 +311,7 @@ Template program slave AXI4-Lite, contoh ini menggunakan 8 register
   <p><em>read transaction to 4 registers timing diagram</em></p>
 </div>
 
+
+---
+### axi_lite
 

@@ -1,0 +1,30 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_axi_slave_behav xil_defaultlib.tb_axi_slave xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'axi_lite_slave' does not have a parameter named C_S00_AXI_ADDR_WIDTH [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:64]
+WARNING: [VRFC 10-2861] module 'axi_lite_slave' does not have a parameter named C_S00_AXI_DATA_WIDTH [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:65]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg6' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:94]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg5' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:93]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg4' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:92]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg3' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:91]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg2' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:90]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg1' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:89]
+ERROR: [VRFC 10-3180] cannot find port 'slv_reg0' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:88]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_rready' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:87]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_rvalid' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:86]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_rresp' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:85]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_rdata' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:84]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_arready' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:83]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_arvalid' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:82]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_arprot' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:81]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_araddr' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:80]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_bready' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:79]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_bvalid' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:78]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_bresp' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:77]
+ERROR: [VRFC 10-3180] cannot find port 's00_axi_wready' on this module [D:/FPGA/fpga-axi4_lite/vivado/axi-lite/axi-lite.srcs/sim_1/new/tb_axi_lite.v:76]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
